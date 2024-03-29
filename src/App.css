@@ -6,6 +6,35 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar-port {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.box {
+  box-shadow: 1px 1px 11px 1px rgb(68, 67, 67);
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.main {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-top: -80px;
+  font-size: larger;
+  word-spacing: 10px;
+  text-align: center;
+ 
+}
+.main h1 {
+  width: 700px;
+  line-height: 40px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
